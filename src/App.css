@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+
+  /* Background Gradient */
+  background: linear-gradient(to right, #4ade80, #10b981, #14b8a6);
+  color: #064e3b; /* dark green text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: #064e3b;
+  margin-bottom: 20px;
+}
+
+form {
+  background: rgba(209, 250, 229, 0.9); /* light minty green */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+input {
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid #6ee7b7;
+  border-radius: 8px;
+  outline: none;
+  width: 200px;
+}
+
+input:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 5px #10b981;
+}
+
+button {
+  background: #84cc16; /* lime green */
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #65a30d; /* darker lime */
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-card {
+  background: rgba(187, 247, 208, 0.95); /* soft pastel green */
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  width: 220px;
+  text-align: left;
+}
+
+.recipe-card h2 {
+  margin: 0;
+  color: #065f46;
+}
+
+.recipe-card p {
+  margin: 8px 0;
+  color: #064e3b;
+}
+
+.recipe-card small {
+  color: #065f46;
+}
